@@ -22,6 +22,8 @@ const AddPage = () => {
       axios.post("http://localhost:8080/flowers", values).then(() => {
         alert("Post created");
       });
+
+      formik.resetForm();
     },
   });
   return (

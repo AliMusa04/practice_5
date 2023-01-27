@@ -82,6 +82,19 @@
     }
   }
 }
+.loadmore_btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  button {
+    padding: 10px 15px;
+    background-color: #338873;
+    border: none;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+  }
+}
 
 .flowers_section {
   background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
@@ -300,4 +313,21 @@
     border-radius: 20px;
     color: #10634e;
   }
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 733px;
+  margin: 0 auto;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 733px;
+}
+.map_contanier {
+  width: 1000px;
+  margin: 0 auto;
 }

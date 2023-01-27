@@ -10,17 +10,20 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const [data, setData] = useState([]);
 
+  const [fake, setFake] = useState(false);
+
   const [input, setInput] = useState("");
 
   const dispatch = useDispatch();
 
   const [toggle, setToggle] = useState(true);
 
+  const [load, setLoad] = useState(3);
   useEffect(() => {
     axios.get("http://localhost:8080/flowers").then((res) => {
       setData(res.data);
     });
-  }, []);
+  }, [fake]);
 
   const filterPrice = (obj) => {
     setToggle(!toggle);
@@ -116,6 +119,7 @@ const Home = () => {
                       return item;
                     }
                   })
+                  .splice(0, load)
 
                   .map((item) => {
                     return (
@@ -134,6 +138,16 @@ const Home = () => {
                             <button className="detail">Detail</button>
                           </Link>
                           <button
+                            style={{ backgroundColor: "red" }}
+                            onClick={() => {
+                              axios.delete(
+                                `http://localhost:8080/flowers/${item._id}`
+                              );
+                              setFake(!fake);
+                            }}>
+                            Delete
+                          </button>
+                          <button
                             className="addWish"
                             onClick={() => {
                               dispatch(addWish(item));
@@ -144,6 +158,14 @@ const Home = () => {
                       </div>
                     );
                   })}
+              <div className="loadmore_btn">
+                <button
+                  onClick={() => {
+                    setLoad(load + 3);
+                  }}>
+                  Load More
+                </button>
+              </div>
             </div>
           </div>
         </div>

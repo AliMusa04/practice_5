@@ -6,6 +6,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { addWish } from "../../redux/slice/WishSlice";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -38,6 +39,11 @@ const Home = () => {
   };
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <section className="carousel_section">
         <Carousel showThumbs={false} showIndicators={false}>
           <div className="position_relative">

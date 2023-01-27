@@ -1,0 +1,303 @@
+.carousel_section {
+  width: 100%;
+  height: 100vh;
+}
+
+.control-arrow.control-next {
+  background-color: transparent;
+}
+.position_relative {
+  img {
+    height: 100vh;
+  }
+}
+.carsel_text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: rgb(36, 111, 92);
+  p {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 46px;
+  }
+}
+
+.position_relative {
+  position: relative;
+}
+
+.home_contanier {
+  width: 1100px;
+  margin: 0 auto;
+}
+.mid_section {
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 0px;
+  .mid_cart {
+    display: flex;
+    .mid_cart_text {
+      width: 50%;
+      background-color: rgb(36, 111, 92);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 80px 0px 150px;
+      .mid_cart_text_first {
+        h2 {
+          margin: 0 0 12px;
+          color: #ffffff;
+          font-family: "Quicksand", sans-serif;
+          font-size: 2.875rem;
+          line-height: 1.1;
+          font-weight: 300;
+        }
+        p {
+          font-family: "Quicksand", sans-serif;
+          font-size: 1rem;
+          line-height: 1.5;
+          padding: 0 0px 20px;
+          color: #ffffff;
+        }
+        button {
+          background-color: #d8e3d5 !important;
+          border-color: #d8e3d5 !important;
+          color: #10634e !important;
+          padding: 0.5625rem 2.3125rem;
+          border-radius: 0px;
+          border: 1px solid transparent;
+        }
+      }
+    }
+    .mid_cart_img {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.flowers_section {
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+  .flowers_title_cards {
+    .flowers_title {
+      text-align: center;
+      p {
+        color: #1b745e;
+        font-style: italic;
+        padding-bottom: 12px;
+      }
+      h2 {
+        color: #0c5b47;
+        font-family: "Quicksand", sans-serif;
+        font-size: 2.875rem;
+        line-height: 1.1;
+        font-weight: 100;
+      }
+    }
+  }
+  .flowers_cards_contanier {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 82px;
+    column-gap: 32px;
+    padding-top: 80px;
+    .flowers_card {
+      width: 335px;
+      height: 420px;
+      img {
+        width: 100%;
+      }
+    }
+    .card_text {
+      margin: 0px 55px;
+      padding: 10px 0px;
+      text-align: center;
+      h2 {
+        color: #1b745e;
+        font-size: 22px;
+        font-weight: 200;
+      }
+      p {
+        padding-top: 5px;
+        color: #1b745e;
+      }
+    }
+  }
+}
+.card_button {
+  padding: 5px 16px;
+  display: flex;
+  justify-content: space-around;
+  button {
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .detail {
+    background-color: rgba(255, 255, 0, 0.8);
+  }
+  .addWish {
+    background-color: #0c5b47;
+  }
+}
+
+.btn_filter {
+  padding: 5px 10px;
+  background-color: #1b745e;
+  border: 1px solid transparent;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pricing_section {
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 58px 0px 80px 0px;
+  .flowers_title_price {
+    text-align: center;
+    p {
+      color: #1b745e;
+      font-style: italic;
+      padding-bottom: 12px;
+    }
+    h2 {
+      color: #0c5b47;
+      font-family: "Quicksand", sans-serif;
+      font-size: 2.875rem;
+      line-height: 1.1;
+      font-weight: 100;
+    }
+  }
+  .price_cart_contanier {
+    padding-top: 39px;
+    display: flex;
+    gap: 32px;
+    .price_cart {
+      width: 335px;
+      height: 380px;
+      padding: 70px 45px;
+      border: 1px solid #10634e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .price_cart_text {
+        text-align: center;
+        column-gap: 16px;
+        h1 {
+          font-family: "Crimson Text", serif;
+          font-size: 1.125rem;
+          line-height: 1.5;
+          color: #1b745e;
+          font-weight: 200;
+          margin-bottom: 16px;
+          span {
+            font-size: 40px;
+          }
+        }
+        h3 {
+          font-family: "Quicksand", sans-serif;
+          font-size: 1.375rem;
+          color: #1b745e;
+          line-height: 1.5;
+          font-weight: 200;
+          margin-bottom: 16px;
+        }
+        p {
+          padding-bottom: 39px;
+          color: #0c5b47;
+        }
+      }
+      button {
+        background-color: #d8e3d5 !important;
+        border-color: #d8e3d5 !important;
+        color: #10634e !important;
+        padding: 0.5625rem 2.3125rem;
+        border-radius: 0px;
+        border: 1px solid transparent;
+      }
+    }
+  }
+}
+
+.teams_section {
+  padding-top: 96px;
+  .teams_title_cards {
+    .teams_section_title {
+      text-align: center;
+      p {
+        color: #1b745e;
+        font-style: italic;
+        padding-bottom: 12px;
+      }
+      h2 {
+        color: #0c5b47;
+        font-family: "Quicksand", sans-serif;
+        font-size: 2.875rem;
+        line-height: 1.1;
+        font-weight: 100;
+      }
+    }
+    .teams_card_contanier {
+      padding: 80px;
+      display: flex;
+      .teams_card {
+        width: 355px;
+        height: 435px;
+        text-align: center;
+        img {
+          width: 100%;
+          padding-bottom: 22px;
+        }
+        .tems_card_text {
+          width: 100%;
+          text-align: center;
+          h3 {
+            font-family: "Quicksand", sans-serif;
+            font-size: 1.375rem;
+            line-height: 1.5;
+            font-weight: 100;
+            color: #10634e;
+          }
+          p {
+            font-family: "Quicksand", sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #338873;
+            font-weight: 100;
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}
+
+.search_price {
+  display: flex;
+  justify-content: space-between;
+  input {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #10634e;
+  }
+}

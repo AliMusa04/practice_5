@@ -1,0 +1,36 @@
+.detail_section {
+  margin-top: 150px;
+  padding: 40px 0px;
+}
+.detail_contanier {
+  width: 1100px;
+  margin: 0 auto;
+}
+.detail_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 51px;
+    margin-bottom: 20px;
+    color: rgb(20, 88, 71);
+  }
+  h4 {
+    font-size: 31px;
+    color: rgb(20, 88, 71);
+  }
+}
+.detail_card {
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 auto;
+  display: flex;
+  width: 800px;
+  border: 3px solid rgb(36, 111, 92);
+  img {
+    width: 50%;
+  }
+}

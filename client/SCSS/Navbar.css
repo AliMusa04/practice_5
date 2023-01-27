@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 48px;
+  background: rgba(16, 99, 78, 0.9);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav .logo_div {
+  font-size: 22px;
+}
+nav .nav_link ul a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 16px !important;
+  font-size: 18px;
+}
+nav .nav_link ul a:hover {
+  color: wheat;
+  border-bottom: 1px solid wheat;
+}

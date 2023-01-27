@@ -1,0 +1,53 @@
+.add_page_section {
+  margin-top: 150px;
+}
+.add_page_contanier {
+  width: 1000px;
+  margin: 0 auto;
+  .addpage_title {
+    h2 {
+      color: #0c5b47;
+      font-family: "Quicksand", sans-serif;
+      font-size: 2.875rem;
+      line-height: 1.1;
+      font-weight: 100;
+      text-align: center;
+    }
+  }
+  .form_cont {
+    padding: 60px 0px;
+    form {
+      margin: 0 auto;
+
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      input {
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+      span {
+        margin-top: 2px;
+        color: red;
+        font-weight: 600;
+      }
+      button {
+        margin-top: 25px;
+        padding: 10px;
+        background-color: #0c5b47;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+          background-color: white;
+          color: #0c5b47;
+          border: 1px solid #0c5b47;
+        }
+      }
+    }
+  }
+}

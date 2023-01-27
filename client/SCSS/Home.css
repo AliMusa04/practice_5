@@ -1,0 +1,299 @@
+.carousel_section {
+  width: 100%;
+  height: 100vh;
+}
+
+.control-arrow.control-next {
+  background-color: transparent;
+}
+
+.position_relative img {
+  height: 100vh;
+}
+
+.carsel_text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: rgb(36, 111, 92);
+}
+.carsel_text p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.carsel_text h3 {
+  font-size: 46px;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.home_contanier {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.mid_section {
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 0px;
+}
+.mid_section .mid_cart {
+  display: flex;
+}
+.mid_section .mid_cart .mid_cart_text {
+  width: 50%;
+  background-color: rgb(36, 111, 92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 80px 0px 150px;
+}
+.mid_section .mid_cart .mid_cart_text .mid_cart_text_first h2 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.875rem;
+  line-height: 1.1;
+  font-weight: 300;
+}
+.mid_section .mid_cart .mid_cart_text .mid_cart_text_first p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0 0px 20px;
+  color: #ffffff;
+}
+.mid_section .mid_cart .mid_cart_text .mid_cart_text_first button {
+  background-color: #d8e3d5 !important;
+  border-color: #d8e3d5 !important;
+  color: #10634e !important;
+  padding: 0.5625rem 2.3125rem;
+  border-radius: 0px;
+  border: 1px solid transparent;
+}
+.mid_section .mid_cart .mid_cart_img img {
+  width: 100%;
+}
+
+.flowers_section {
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+.flowers_section .flowers_title_cards .flowers_title {
+  text-align: center;
+}
+.flowers_section .flowers_title_cards .flowers_title p {
+  color: #1b745e;
+  font-style: italic;
+  padding-bottom: 12px;
+}
+.flowers_section .flowers_title_cards .flowers_title h2 {
+  color: #0c5b47;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.875rem;
+  line-height: 1.1;
+  font-weight: 100;
+}
+.flowers_section .flowers_cards_contanier {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 82px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  padding-top: 80px;
+}
+.flowers_section .flowers_cards_contanier .flowers_card {
+  width: 335px;
+  height: 420px;
+}
+.flowers_section .flowers_cards_contanier .flowers_card img {
+  width: 100%;
+}
+.flowers_section .flowers_cards_contanier .card_text {
+  margin: 0px 55px;
+  padding: 10px 0px;
+  text-align: center;
+}
+.flowers_section .flowers_cards_contanier .card_text h2 {
+  color: #1b745e;
+  font-size: 22px;
+  font-weight: 200;
+}
+.flowers_section .flowers_cards_contanier .card_text p {
+  padding-top: 5px;
+  color: #1b745e;
+}
+
+.card_button {
+  padding: 5px 16px;
+  display: flex;
+  justify-content: space-around;
+}
+.card_button button {
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card_button .detail {
+  background-color: rgba(255, 255, 0, 0.8);
+}
+.card_button .addWish {
+  background-color: #0c5b47;
+}
+
+.btn_filter {
+  padding: 5px 10px;
+  background-color: #1b745e;
+  border: 1px solid transparent;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pricing_section {
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 58px 0px 80px 0px;
+}
+.pricing_section .flowers_title_price {
+  text-align: center;
+}
+.pricing_section .flowers_title_price p {
+  color: #1b745e;
+  font-style: italic;
+  padding-bottom: 12px;
+}
+.pricing_section .flowers_title_price h2 {
+  color: #0c5b47;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.875rem;
+  line-height: 1.1;
+  font-weight: 100;
+}
+.pricing_section .price_cart_contanier {
+  padding-top: 39px;
+  display: flex;
+  gap: 32px;
+}
+.pricing_section .price_cart_contanier .price_cart {
+  width: 335px;
+  height: 380px;
+  padding: 70px 45px;
+  border: 1px solid #10634e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing_section .price_cart_contanier .price_cart .price_cart_text {
+  text-align: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.pricing_section .price_cart_contanier .price_cart .price_cart_text h1 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #1b745e;
+  font-weight: 200;
+  margin-bottom: 16px;
+}
+.pricing_section .price_cart_contanier .price_cart .price_cart_text h1 span {
+  font-size: 40px;
+}
+.pricing_section .price_cart_contanier .price_cart .price_cart_text h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.375rem;
+  color: #1b745e;
+  line-height: 1.5;
+  font-weight: 200;
+  margin-bottom: 16px;
+}
+.pricing_section .price_cart_contanier .price_cart .price_cart_text p {
+  padding-bottom: 39px;
+  color: #0c5b47;
+}
+.pricing_section .price_cart_contanier .price_cart button {
+  background-color: #d8e3d5 !important;
+  border-color: #d8e3d5 !important;
+  color: #10634e !important;
+  padding: 0.5625rem 2.3125rem;
+  border-radius: 0px;
+  border: 1px solid transparent;
+}
+
+.teams_section {
+  padding-top: 96px;
+}
+.teams_section .teams_title_cards .teams_section_title {
+  text-align: center;
+}
+.teams_section .teams_title_cards .teams_section_title p {
+  color: #1b745e;
+  font-style: italic;
+  padding-bottom: 12px;
+}
+.teams_section .teams_title_cards .teams_section_title h2 {
+  color: #0c5b47;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.875rem;
+  line-height: 1.1;
+  font-weight: 100;
+}
+.teams_section .teams_title_cards .teams_card_contanier {
+  padding: 80px;
+  display: flex;
+}
+.teams_section .teams_title_cards .teams_card_contanier .teams_card {
+  width: 355px;
+  height: 435px;
+  text-align: center;
+}
+.teams_section .teams_title_cards .teams_card_contanier .teams_card img {
+  width: 100%;
+  padding-bottom: 22px;
+}
+.teams_section .teams_title_cards .teams_card_contanier .teams_card .tems_card_text {
+  width: 100%;
+  text-align: center;
+}
+.teams_section .teams_title_cards .teams_card_contanier .teams_card .tems_card_text h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.5;
+  font-weight: 100;
+  color: #10634e;
+}
+.teams_section .teams_title_cards .teams_card_contanier .teams_card .tems_card_text p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #338873;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.search_price {
+  display: flex;
+  justify-content: space-between;
+}
+.search_price input {
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 20px;
+  color: #10634e;
+}
